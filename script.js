@@ -7,21 +7,7 @@ temaBtn.addEventListener("click", function(){
     document.body.classList.toggle("dark");
 
 });
-
-// Formulário personalizado
-
-const formulario = document.getElementById("formulario");
-
-formulario.addEventListener("submit", function(event){
-
-    event.preventDefault();
-
-    let nome = document.getElementById("nome").value;
-
-    document.getElementById("mensagem").innerHTML =
-    "Olá, " + nome + "! Obrigado por apoiar a agricultura familiar.";
-
-});
+ 
 
 // Controle de fonte
 
