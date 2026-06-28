@@ -1,4 +1,4 @@
-// Controle do modo escuro
+// Botão de modo escuro
 
 const temaBtn = document.getElementById("temaBtn");
 
@@ -7,9 +7,8 @@ temaBtn.addEventListener("click", function(){
     document.body.classList.toggle("dark");
 
 });
- 
 
-// Controle de fonte
+// Controle do tamanho da fonte
 
 let tamanhoFonte = 16;
 
