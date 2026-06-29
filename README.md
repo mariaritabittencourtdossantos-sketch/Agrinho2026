@@ -29,5 +29,5 @@ Estrutura do Projeto:
 ├── script.js
 
 ├── README.md
- 
- Feito por: Maria Rita 1 ano B
+
+feito por: Maria Rita
