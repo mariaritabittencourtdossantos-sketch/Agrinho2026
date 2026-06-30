@@ -8,6 +8,18 @@ temaBtn.addEventListener("click", function(){
 
 });
 
+function darBoasVindas() {
+    let nome = document.getElementById("nomeUsuario").value;
+
+    if (nome !== "") {
+        document.getElementById("mensagem").innerHTML =
+            "Bem-vindo, " + nome + "! Vamos aprender!";
+    } else {
+        document.getElementById("mensagem").innerHTML =
+            "Digite seu nome.";
+    }
+}
+
 // Controle do tamanho da fonte
 
 let tamanhoFonte = 16;
