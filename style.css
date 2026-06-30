@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background:#2e7d32;
+    background:#df7c2c;
     color:white;
     padding:20px;
     display:flex;
@@ -47,7 +47,7 @@ button{
     border:none;
     border-radius:8px;
     cursor:pointer;
-    background:#4caf50;
+    background:#dab71e;
     color:white;
     transition:0.3s;
 }
